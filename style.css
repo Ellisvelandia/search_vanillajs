@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/01073865290819.5d61d475f0072.jpg)
+    no-repeat;
+  background-size: cover;
+  font-size: 1.4rem;
+  backface-visibility: hidden;
+  text-shadow: 4px 2px 1px white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.container {
+  margin: 1rem;
+}
+
+#btn {
+  width: 120px;
+  padding-inline: 1rem;
+  border-radius: 5px;
+  padding-block: 0.5rem;
+}
+
+input {
+  padding-block: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.error {
+  color: red;
+}
+
+#pokedex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 4px 2px 1px black;
+  border: 1px solid black;
+  padding: 1rem;
+  margin-block: 1rem;
+}
